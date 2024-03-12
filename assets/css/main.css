@@ -1,8 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
 
-
-
 .project-card {
     transition: all 0.3s ease-in-out;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -23,7 +21,6 @@
     line-height: 1.6;
 }
 
-/* Style the button container */
 .button-container {
 	display: flex; /* Enable flexbox layout */
 	align-items: left;
@@ -354,7 +351,9 @@ input, select, textarea {
 			a.special:not(.button):active:before {
 				background-color: rgba(255, 255, 255, 0.075);
 			}
-
+.button-container a {
+	border-bottom: none;
+}
 	strong, b {
 		color: #ffffff;
 		font-weight: 600;
@@ -390,6 +389,8 @@ input, select, textarea {
 			padding-bottom: 1em;
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 		}
+
+
 
 	h2 {
 		font-size: 1.2em;
