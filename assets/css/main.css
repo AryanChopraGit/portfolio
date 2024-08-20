@@ -22,44 +22,44 @@
 }
 
 .button-container {
-	display: flex; /* Enable flexbox layout */
+	display: flex; 
 	align-items: left;
-	flex-wrap: wrap; /* Allow buttons to wrap onto multiple lines if needed */
-	justify-content: flex-start; /* Align buttons to the left */
-	gap: 10px; /* Add space between buttons (adjust as needed) */
+	flex-wrap: wrap; 
+	justify-content: flex-start;
+	gap: 10px;
   }
 	
-  /* Style the buttons */
+
   .btn {
-	background-color: #fff; /* Replace with your desired green color */
-	color: #333; /* White color for text */
+	background-color: #fff;
+	color: #333;
 	border: none;
 	padding: 10px 20px;
 	border-radius: 5px;
 	font-family: Arial, sans-serif;
 	display: flex;
-	text-align: left; /* Align text to the left within the button */
-	justify-content: center; /* Center text horizontally */
-	align-items: center; /* Center text vertically */
+	text-align: left;
+	justify-content: center;
+	align-items: center; 
 	font-size: 16px;
-	margin-right: 10px; /* Add margin for spacing */
+	margin-right: 10px;
 	transition: background-color 0.3s ease;
   }
   
-  /* Responsive media query for smaller screens */
+
 @media screen and (max-width: 768px) {
-	/* Stack the buttons vertically on smaller screens */
+
 	.button-container {
 	  flex-direction: column;
-	  gap: 10px; /* Adjust gap for stacked buttons (optional) */
-	  align-items: center; /* Center buttons horizontally */
+	  gap: 10px;
+	  align-items: center; 
 	}
   
-  /* Remove gap on single button in stacked container */
+
   .button-container.stacked-buttons:not(:empty) {
-    gap: 0; /* Remove gap when only one button is present */
+    gap: 0;
   }
-  .btn span, .btn p { /* Target potential text elements within the button */
+  .btn span, .btn p {
 	color: #fff;
   }  
 
@@ -67,47 +67,47 @@
   
 
 
-  /* Style for the button on hover */
+
   .btn:hover {
-	background-color: #ededed; /* Slightly darker green on hover */
+	background-color: #ededed;
   }
 
 
   .navbar {
-	display: flex; /* Arrange elements horizontally */
-	align-items: center; /* Vertically align elements */
-	justify-content: space-between; /* Distribute links evenly */
-	padding: 10px 20px; /* Add some padding */
+	display: flex;
+	align-items: center;
+	justify-content: space-between; 
+	padding: 10px 20px; 
   }
   
   .logo {
-	font-size: 20px; /* Adjust font size as needed */
-	font-weight: bold; /* Optional: make the logo text bold */
+	font-size: 20px; 
+	font-weight: bold;
 	list-style: none;
   }
   
   .nav-links {
-	list-style: none; /* Remove default bullet points */
-	padding: 0; /* Remove default padding */
-	margin: 0; /* Remove default margin */
+	list-style: none; 
+	padding: 0; 
+	margin: 0; 
   }
   
   .nav-links li {
-	display: inline-block; /* Display links inline */
-	margin-right: 20px; /* Add space between links */
+	display: inline-block; 
+	margin-right: 20px; 
   }
   
   .nav-links a {
-	text-decoration: none; /* Remove underline */
-	color: #333; /* Link text color */
+	text-decoration: none; 
+	color: #333; 
   }
   
   .nav-links a:hover {
-	color: #000; /* Change link color on hover (optional) */
+	color: #000; 
   }
 
   .nav-links a{
-	color: #fff; /* Change to a lighter color, like white */
+	color: #fff; 
   }
   
   
@@ -184,7 +184,6 @@ input, select, textarea {
 	appearance: none;
 }
 
-/* Basic */
 @viewport {
 	width: device-width;
   }  
@@ -489,7 +488,7 @@ input, select, textarea {
 		text-align: right;
 	}
 
-/* Row */
+
 
 	.row {
 		display: flex;
@@ -2468,7 +2467,7 @@ input, select, textarea {
 		opacity: 1.0;
 	}
 
-/* Box */
+
 
 	.box {
 		border-radius: 5px;
@@ -2489,7 +2488,7 @@ input, select, textarea {
 			padding: 0;
 		}
 
-/* Icon */
+
 
 	.icon {
 		text-decoration: none;
@@ -2526,7 +2525,7 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
-/* Image */
+
 
 	.image {
 		border-radius: 5px;
@@ -2631,7 +2630,6 @@ input, select, textarea {
 			margin-left: 2em;
 		}
 
-/* Actions */
 
 	ul.actions {
 		display: -moz-flex;
@@ -2753,7 +2751,6 @@ input, select, textarea {
 
 		}
 
-/* Icons */
 
 	ul.icons {
 		cursor: default;
@@ -2774,7 +2771,6 @@ input, select, textarea {
 				font-size: 1.25em;
 			}
 
-/* Contact */
 
 	ul.contact {
 		list-style: none;
@@ -2827,7 +2823,7 @@ input, select, textarea {
 
 		}
 
-/* Pagination */
+
 
 	ul.pagination {
 		cursor: default;
@@ -2897,7 +2893,6 @@ input, select, textarea {
 
 		}
 
-/* Table */
 
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
@@ -2965,7 +2960,6 @@ input, select, textarea {
 				border-top: 0;
 			}
 
-/* Button */
 
 	input[type="submit"],
 	input[type="reset"],
@@ -3105,7 +3099,6 @@ input, select, textarea {
 
 		}
 
-/* Features */
 
 	.features {
 		display: -moz-flex;
@@ -3185,7 +3178,6 @@ input, select, textarea {
 
 		}
 
-/* Banner */
 
 	#banner {
 		padding: 10em 0 4.75em 0 ;
@@ -3359,7 +3351,6 @@ input, select, textarea {
 			filter: blur(2px);
 		}
 
-/* Wrapper */
 
 	#wrapper > header {
 		padding: 11em 0 2.25em 0 ;
@@ -3818,7 +3809,7 @@ input, select, textarea {
 
 		}
 
-/* Footer */
+
 #footer {
 	background-color: #2e3141;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("images/bg2.png");
